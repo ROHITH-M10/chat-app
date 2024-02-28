@@ -5,6 +5,7 @@ import './style.css';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthContext } from './context/AuthContext';
 import { useContext } from 'react';
+import { currentUser } from './App';
 
 function App() {
 
